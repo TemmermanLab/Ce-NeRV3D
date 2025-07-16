@@ -4,7 +4,7 @@
 
 •	To use this add-on, you'll need the following:
 1.	Blender (https://www.blender.org/download/)
-2.	The Python add-on
+2.	The Python add-on file
 3.	Virtual_Worm.blend
 4.	A .csv file (in the shared folder we included two versions of the CeNGEN dataset)
 
