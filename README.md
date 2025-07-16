@@ -5,7 +5,7 @@
 •	To use this add-on, you'll need the following:
 1.	Blender (https://www.blender.org/download/)
 2.	The Python add-on file
-3.	Virtual_Worm.blend
+3.	NeRV3D.blend
 4.	A .csv file (in the shared folder we included two versions of the CeNGEN dataset)
 
 **Installation guidelines:**
@@ -15,7 +15,7 @@
 
 <img width="382" height="302" alt="image" src="https://github.com/user-attachments/assets/ce8f96a7-a7f9-4d89-80bf-972b76356991" />
 
-•	Close this window and now go on File-->Open and select Virtual_Worm.blend
+•	Close this window and now go on File-->Open and select NeRV3D.blend
 
 •	You’ll see a window like this:
 1.	Left Panel: This contains a list of Collections, including the cameras used for different render angles and a transparent cuticle.
