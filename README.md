@@ -11,7 +11,7 @@
 **Installation guidelines:**
 
 •	Download and install Blender
-•	Open the software and select Edit-->Preferences…-->Add-Ons-->Install and select the NeRV3D.py file provided in the folder, select Install Add-on and you should get the file in the list like this (remember to check the box otherwise the add-on will not appear in your blender view). 
+•	Open the software and select Edit-->Preferences…-->Add-ons-->Install and select the NeRV3D.py file provided in the folder, select Install Add-on and you should get the file in the list like this (remember to check the box otherwise the add-on will not appear in your blender view). 
 
 <img width="382" height="302" alt="image" src="https://github.com/user-attachments/assets/ce8f96a7-a7f9-4d89-80bf-972b76356991" />
 
