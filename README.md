@@ -3,6 +3,7 @@
 •	This tool allows you to generate high-quality images or videos of your genes of interest within the _C. elegans_ nervous system.
 
 •	To use this add-on, you'll need the following:
+
 1.	Blender (https://www.blender.org/download/)
 2.	The Python add-on file
 3.	NeRV3D.blend
@@ -18,8 +19,9 @@
 •	Close this window and now go on File-->Open and select NeRV3D.blend
 
 •	You’ll see a window like this:
+
 1.	Left Panel: This contains a list of Collections, including the cameras used for different render angles and a transparent cuticle.
-At this stage, all Collections should be enabled—make sure both the eye and camera icons are visible.
+At this stage, all Collections should be enabled, make sure both the eye and camera icons are visible.
 
 _If any are disabled now, neurons may not appear during gene selection later._
 
@@ -30,9 +32,10 @@ _If any are disabled now, neurons may not appear during gene selection later._
 **Step 1: Load the CSV file**
 
 •	Start by selecting the .csv file containing your gene expression data. The folder includes two preformatted CeNGEN files.
-You can also load other datasets (e.g., from Calico), but they must follow the same structure—that is, the same column and row format as the CeNGEN files. The Python script is designed to recognize this specific structure.
+You can also load other datasets (e.g., from Calico), but they must follow the same structure that is, the same column and row format as the CeNGEN files. The Python script is designed to recognize this specific structure.
 
 •	To load your file:
+
 1.	In the Custom Tool panel, click Load CSV.
 2.	Copy and paste the full file path into the box.
 Example: /Users/blender/NeRV3D/021821_medium_threshold2.csv
@@ -41,12 +44,14 @@ Example: /Users/blender/NeRV3D/021821_medium_threshold2.csv
 **Step 2: Select Genes of Interest**
 
 •	Once the CSV is loaded, you can start selecting genes:
+
 1.	In the Custom Tool panel, choose Gene.
 2.	Enter a gene name using CeNGEN nomenclature (e.g., _flp-1_).
 3.	Click OK, then select Select By Gene.
 •	Only enter one gene at a time. To select multiple genes, repeat this process for each gene individually
 •	Selected genes will appear in the left panel as new neuron objects. These are copies of the original neurons, so you can safely delete them later without affecting the base model.
 Step 3: Hide Non-Selected Neurons
+
 •	To view only the neurons expressing your selected gene(s), click Toggle Invisible. This will hide all other Collections.
 
 <img width="140" height="149" alt="image" src="https://github.com/user-attachments/assets/32b93870-8b8c-442d-84d0-6c606e24f94a" />
@@ -54,6 +59,7 @@ Step 3: Hide Non-Selected Neurons
 **Optional: Show Transparent Cuticle**
 
 •	If you want to include the transparent cuticle in your scene:
+
 1.	In the left panel, click the closed eye icon next to Cuticle_transparent to make it visible.
 2.	Make sure the camera icon is also enabled, or the cuticle won't appear in the final render.
 
@@ -67,7 +73,7 @@ Step 3: Hide Non-Selected Neurons
 
 <img width="452" height="53" alt="image" src="https://github.com/user-attachments/assets/b9aa976c-6054-476a-99f5-23d56db6a8da" />
 
-•	Next, go to the 3-Material tab. In the right-hand panel, you’ll see the material assigned to your selected gene—along with its current color (randomly assigned by default). 
+•	Next, go to the 3-Material tab. In the right-hand panel, you’ll see the material assigned to your selected gene, along with its current color (randomly assigned by default). 
 You can easily change this color to one of your choice here.
 
 <img width="165" height="224" alt="image" src="https://github.com/user-attachments/assets/50691cbd-7153-4f03-9bd5-5599e609959f" />
@@ -75,6 +81,7 @@ You can easily change this color to one of your choice here.
 •	In this example, all neurons expressing flp-1 are colored magenta by default. 
 
 To change the color:
+
 1.	Click on Base Color and choose any shade you prefer.
 2.	Click OK, and all neurons expressing your gene of interest will update to the new color.
    
@@ -102,6 +109,7 @@ _If you switch to a different view, simply press 0 again to return to the camera
 
 •	Go to the Layout tab.
 •	In the lower-right panel, you'll find settings for:
+
 1.	Resolution (X and Y): Adjust the image or video dimensions.
 2.	Frames Per Second (FPS): Set the frame rate for video. A value of 25 fps is typically ideal.
 3.	Output Folder: Choose the destination for saving your rendered files.
