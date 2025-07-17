@@ -91,6 +91,7 @@ To change the color:
 •	To select a camera, simply click on the green camera icon next to the one you want to use. The only camera designed for video rendering is the "Rotating Camera", which follows a predefined path and performs a full 360° rotation around the worm.
 
 •	If you’d like to customize your camera angles, you can move existing cameras to new positions or add multiple cameras as needed.
+
 •	To ensure you're viewing through the active camera, switch to the Camera Perspective by pressing 0 on your keypad.
 
 _If you switch to a different view, simply press 0 again to return to the camera view._
@@ -107,9 +108,10 @@ _If you switch to a different view, simply press 0 again to return to the camera
    
 _Note: Changing the resolution (X and Y values) may affect your camera framing. After adjusting the resolution, double-check that the correct portion of the worm is still visible in the camera view._
 
+<img width="163" height="312" alt="image" src="https://github.com/user-attachments/assets/a8e33619-67bd-49d9-b36c-5662ebe50c73" />
+
 **Generate Your Render**
 •	Go to the Render menu in the top toolbar.
 •	Choose Render Image to generate a still image.
-•	Choose Render Animation to create a video.
+•	Choose Render Animation to create a video (_this works only if you select the "Rotating Camera"_).
 
-<img width="163" height="312" alt="image" src="https://github.com/user-attachments/assets/a8e33619-67bd-49d9-b36c-5662ebe50c73" />
