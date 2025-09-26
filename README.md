@@ -4,7 +4,7 @@
 
 •	To use this add-on, you'll need the following:
 
-1.	Blender (https://www.blender.org/download/)
+1.	Blender (https://www.blender.org/download/). We used Blender Version 3.6.5, which can be downloaded using this link (https://download.blender.org/release/Blender3.6/)
 2.	The Python add-on file
 3.	NeRV3D.blend
 4.	A .csv file (two CeNGEN datasets are included in the shared folder)
